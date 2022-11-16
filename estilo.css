@@ -1,0 +1,55 @@
+body {
+    background-color:#D3D3D3;
+}
+
+.formulario {
+    display: flex;
+    height: 94vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.inputs {
+    display: block;
+    padding: 50px;
+    border: 2px solid rgba(0, 0, 0, 0.6);
+    font-size: 21px;
+}
+
+input {
+    background-color: white;
+    width: 360px;
+    height: 20px;
+}
+
+.titulo_formulario {
+    font-size: 30px !important; 
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: -3px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.botoes {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10px;
+    margin-bottom: -20px;
+}
+
+button {
+    width: 180px;
+    height: 28px;
+    font-size: 14px;
+    background-color: rgb(174, 170, 170);
+}
+
+button:hover {
+    background-color: white;
+    cursor: pointer;
+}
+
+
+
+
+
